@@ -1,0 +1,422 @@
+/* Typography section rules.
+   Generated from 01-webflow-utilities.css by scripts/split-webflow-css.cjs. */
+
+.typography_contain_headings {
+
+    margin-top: var(--_spacing---section-space--small);
+    margin-left: var(--column-margin--5);
+    color: var(--swatch--dark)
+
+}
+
+.typography_contain_heading {
+
+    font-family: Ppneuemontreal Variable, Arial, sans-serif
+
+}
+
+.typography_contain_heading.u-text-style-h1 {
+
+    text-align: center;
+    font-size: 9vw
+
+}
+
+.typography_contain_bottom {
+
+    width: var(--column-width--5);
+    margin-bottom: var(--site--margin);
+    margin-left: var(--site--margin);
+    color: var(--swatch--black);
+    border-bottom: 1px solid #000
+
+}
+
+.typography_contain_bottom_p {
+
+    margin-bottom: var(--_spacing---space--4)
+
+}
+
+.typography_contain_bottom_p.u-text-style-h4 {
+
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h5);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+
+}
+
+.typography_content_wrap {
+
+    width: var(--max-width--full);
+    height: var(--max-width--full);
+    padding: var(--_spacing---section-space--main)var(--site--margin);
+    grid-column-gap: var(--_spacing---section-space--main);
+    grid-row-gap: var(--_spacing---section-space--main);
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    position: relative
+
+}
+
+.type_content_p.u-text-style-h4 {
+
+    max-width: 20ch
+
+}
+
+.type_case_item.u-width-full {
+
+    border-top: 1px solid var(--swatch--white);
+    background-color: var(--swatch--black);
+    position: relative
+
+}
+
+.type_case_content.u-grid-custom {
+
+    padding-top: var(--_spacing---space--4);
+    padding-bottom: var(--_spacing---space--4);
+    --_column-count---value: 2
+
+}
+
+.typography_circle {
+
+    margin-right: var(--site--margin);
+    border-radius: var(--max-width--small);
+    background-color: var(--swatch--main-accent);
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    inset: auto 0% 0% auto
+
+}
+
+.typography_contain {
+
+    padding-right: var(--site--margin);
+    padding-left: var(--site--margin);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr
+
+}
+
+.typography_contain.u-grid-custom {
+
+    background-color: var(--_theme---background);
+    grid-template-rows: auto auto;
+    position: relative
+
+}
+
+.typography_wrap {
+
+    padding-top: var(--site--margin);
+    background-color: var(--swatch--black);
+    position: relative
+
+}
+
+.typography_circle_draggable {
+
+    border: 7px solid var(--swatch--white);
+    border-radius: var(--radius--round);
+    background-color: var(--swatch--black);
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    position: absolute;
+    inset: 24% 0% 0% 10%
+
+}
+
+.typography_circle_draggable.is-duplicate {
+
+    border: 7px solid var(--swatch--white);
+    top: 51%;
+    left: 65%
+
+}
+
+.typography_circle_text.u-text-style-display.is-duplicate {
+
+    font-family: var(--_typography---font--tertiary-family);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h2);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+
+}
+
+.typography_circle_text.u-text-style-display.is-duplicate.u-text-trim-off {
+
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h1);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+
+}
+
+.type_case_info_p {
+
+    margin-bottom: var(--_spacing---space--4);
+    max-width: 57ch
+
+}
+
+.type_case_bottom {
+
+    width: 100%;
+    position: relative
+
+}
+
+.type_case_inner {
+
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    display: flex
+
+}
+
+.type_case_inner.u-justify-content-between {
+
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    align-content: space-around;
+    align-items: stretch;
+    display: flex;
+    position: relative
+
+}
+
+@media screen and (min-width:1440px) {
+.typography_contain_headings {
+
+        margin-left: var(--column-margin--6)
+    
+}
+}
+
+@media screen and (min-width:1920px) {
+.typography_contain_heading.u-text-style-h1 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--display);
+        --_text-style---line-height: var(--_typography---line-height--1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--6);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+}
+
+@media screen and (max-width:991px) {
+.typography_contain_headings.u-flex-vertical-nowrap.u-gap-4 {
+
+        margin-top: var(--_spacing---space--7);
+        grid-row-gap: 1rem
+    
+}
+
+.typography_contain_heading.u-text-style-h1 {
+
+        margin-bottom: var(--column-margin--0);
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h1);
+        --_text-style---line-height: var(--_typography---line-height--1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--5);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+
+.typography_contain_bottom {
+
+        width: var(--column-width--6)
+    
+}
+
+.typography_contain_bottom_p.u-text-style-h4 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h6);
+        --_text-style---line-height: var(--_typography---line-height--1-1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--4);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+        max-width: 32ch
+    
+}
+
+.type_case_content.u-grid-custom {
+
+        display: flex
+    
+}
+
+.typography_circle_draggable {
+
+        width: 10rem;
+        height: 10rem
+    
+}
+
+.typography_circle_text.u-text-style-display {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h1);
+        --_text-style---line-height: var(--_typography---line-height--1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--5);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+
+.typography_circle_text.u-text-style-display.is-duplicate.u-text-trim-off {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h2);
+        --_text-style---line-height: var(--_typography---line-height--1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--5);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+
+.type_case_bottom {
+
+        margin-top: var(--_spacing---space--5);
+    
+}
+}
+
+@media screen and (max-width:767px) {
+.typography_contain_headings {
+
+        color: var(--swatch--white);
+        order: -9999;
+        margin-top: 0;
+        margin-left: 0
+    
+}
+
+.typography_contain_headings.u-flex-vertical-nowrap.u-gap-4 {
+
+        margin-bottom: var(--_spacing---space--4)
+    
+}
+
+.typography_contain_heading.u-text-style-h1 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h1);
+        --_text-style---line-height: var(--_typography---line-height--1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--5);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+        font-size: 18.5vw
+    
+}
+
+.typography_contain_bottom {
+
+        width: var(--column-width--12);
+        color: var(--swatch--white)
+    
+}
+
+.typography_contain_bottom_p.u-text-style-h4 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h5);
+        --_text-style---line-height: var(--_typography---line-height--1-1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--4);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+
+.typography_contain.u-grid-custom {
+
+        display: flex
+    
+}
+
+.typography_circle_draggable {
+
+        display: none
+    
+}
+}

@@ -1,0 +1,135 @@
+/* Design + Dev chapter rules.
+   Generated from 01-webflow-utilities.css by scripts/split-webflow-css.cjs. */
+
+.design-dev_wrap {
+
+    height: 100svh
+
+}
+
+.design-dev_wrap.u-flex-vertical-nowrap.u-justify-content-between {
+
+    padding: var(--site--margin);
+    background-color: var(--swatch--black)
+
+}
+
+.design-dev_wrap.u-flex-vertical-nowrap.u-justify-content-between.u-zindex-1 {
+
+    z-index: auto;
+    padding-top: var(--_spacing---space--5);
+    background-color: var(--swatch--white);
+    color: var(--swatch--black)
+
+}
+
+.dd_chapter_wrap.u-flex-horizontal-nowrap.u-width-full.u-justify-content-end {
+
+    justify-content: space-between;
+    align-items: flex-start
+
+}
+
+.dd_chapter {
+
+    width: var(--column-width--5)
+
+}
+
+.dd_chapter.u-flex-horizontal-wrap.u-justify-content-between.u-align-items-start {
+
+    width: var(--column-width--4);
+    padding-top: var(--site--margin);
+    border-top: 1px solid var(--swatch--gray)
+
+}
+
+.dd_chapter_num.u-text-style-display {
+
+    font-size: 16rem;
+    font-weight: var(--_typography---font--primary-regular)
+
+}
+
+.dd_info_wrap {
+
+    height: 33vh
+
+}
+
+.dd_info_wrap.u-flex-vertical-nowrap.u-justify-content-between {
+
+    width: var(--column-width--6)
+
+}
+
+.dd_info_wrap.u-flex-vertical-nowrap.u-justify-content-between.u-zindex-1 {
+
+    padding-bottom: var(--_spacing---section-space--small)
+
+}
+
+.dd_info_head.u-text-style-h4.u-text-transform-capitalize {
+
+    text-transform: uppercase
+
+}
+
+.dd_info_contain.u-width-full {
+
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative
+
+}
+
+@media screen and (min-width:1280px) {
+.dd_chapter.u-flex-horizontal-wrap.u-justify-content-between.u-align-items-start {
+
+        padding-top: var(--_spacing---space--4)
+    
+}
+}
+
+@media screen and (max-width:991px) {
+.dd_chapter_wrap.u-flex-horizontal-nowrap.u-width-full.u-justify-content-end {
+
+        grid-column-gap: var(--_spacing---section-space--main);
+        grid-row-gap: var(--_spacing---section-space--main);
+        flex-flow: column-reverse;
+        align-items: flex-start
+    
+}
+
+.dd_chapter.u-flex-horizontal-wrap.u-justify-content-between.u-align-items-start {
+
+        width: var(--max-width--full);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        flex-flow: row
+    
+}
+
+.dd_info_wrap.u-flex-vertical-nowrap.u-justify-content-between.u-zindex-1 {
+
+        width: var(--max-width--full);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        height: auto
+    
+}
+}
+
+@media screen and (max-width:767px) {
+.design-dev_wrap.u-flex-vertical-nowrap.u-justify-content-between.u-zindex-1 {
+
+        height: 100dvh
+    
+}
+
+.dd_chapter_num.u-text-style-display {
+
+        font-size: 10rem
+    
+}
+}

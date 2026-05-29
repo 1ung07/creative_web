@@ -1,0 +1,80 @@
+/* Practice UI section rules.
+   Generated from 01-webflow-utilities.css by scripts/split-webflow-css.cjs. */
+
+.practice_wrap {
+
+    padding-top: var(--site--margin);
+    background-color: var(--_theme---background);
+    position: relative
+
+}
+
+.practice_contain_header {
+
+    margin-bottom: var(--_spacing---section-space--small);
+    padding-right: var(--site--margin);
+    padding-left: var(--site--margin);
+    grid-column-gap: var(--_spacing---space--5);
+    grid-row-gap: var(--_spacing---space--5);
+    flex-flow: column;
+    display: flex
+
+}
+
+.practice_contain_content {
+
+    position: relative
+
+}
+
+.practice_contain_inner {
+
+    padding: var(--site--margin);
+    grid-row-gap: var(--_spacing---section-space--page-top);
+    background-color: var(--swatch--black);
+    flex-flow: column;
+    justify-content: space-between;
+    min-height: 125svh;
+    display: flex
+
+}
+
+.practice_contain_inner.u-position-absolute {
+
+    inset: 0%
+
+}
+
+.practice_contain_focus {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    inset: 50% 0% 0%;
+    transform: translateY(-50%)
+
+}
+
+.practice_contain_line {
+
+    background-color: var(--swatch--white);
+    width: 3rem;
+    height: 1px
+
+}
+
+.practice_contain_line.is-duplicate {
+
+    width: 3rem;
+    position: absolute;
+    transform: rotate(90deg)
+
+}
+
+.practice_contain_heading.u-text-style-h2 {
+
+    line-height: var(--_typography---line-height--1);
+    max-width: 20ch
+
+}

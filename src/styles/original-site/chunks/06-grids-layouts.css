@@ -1,0 +1,537 @@
+/* Grids & Layouts section rules.
+   Generated from 01-webflow-utilities.css by scripts/split-webflow-css.cjs. */
+
+.grids_wrap {
+
+    padding: var(--_spacing---section-space--large)var(--site--margin)
+
+}
+
+.grids_wrap.u-flex-vertical-nowrap {
+
+    z-index: 1;
+    padding-top: var(--site--margin);
+    padding-bottom: var(--column-margin--0);
+    grid-row-gap: var(--_spacing---section-space--large);
+    background-color: var(--_theme---background);
+    position: relative
+
+}
+
+.grids_intro_wrap {
+
+    height: 100svh
+
+}
+
+.grids_intro_wrap.u-width-full.u-flex-horizontal-nowrap.u-justify-content-between {
+
+    z-index: 1;
+    grid-column-gap: var(--site--gutter);
+    grid-row-gap: var(--site--gutter);
+    position: relative
+
+}
+
+.grids_intro_chapter.u-width-full.u-height-full {
+
+    border: 1px solid var(--swatch--light-dim)
+
+}
+
+.grids_intro_about.u-width-full.u-height-full.u-flex-vertical-wrap.u-gap-8.u-align-items-center {
+
+    position: relative
+
+}
+
+.grids_intro_head.u-text-style-display {
+
+    text-align: center;
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h1);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    max-width: 8ch
+
+}
+
+.grids_intro_p.u-text-style-h4 {
+
+    text-align: center;
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h5);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+
+}
+
+.grids_chapter {
+
+    padding-top: var(--site--margin);
+    padding-left: var(--site--margin);
+
+}
+
+.grids_chapter_bottom_wrap.u-width-full {
+
+    border-top: 1px solid var(--swatch--light-dim);
+    height: 33vh
+
+}
+
+.grids_chapter_bottom.u-flex-vertical-nowrap.u-justify-content-between.u-height-full.u-width-full {
+
+    padding: var(--site--margin)var(--site--margin)var(--_spacing---space--1);
+    position: relative
+
+}
+
+.grids_flip_wrap.u-width-full.u-gap-8 {
+
+    height: 100svh
+
+}
+
+.grids_flip_wrap.u-width-full.u-flex-vertical-nowrap.u-gap-8 {
+
+    padding-top: var(--_spacing---space--5);
+    padding-bottom: var(--site--margin);
+    grid-column-gap: var(--_spacing---section-space--small);
+    grid-row-gap: var(--_spacing---section-space--small);
+    border-top: 1px solid var(--swatch--gray);
+    height: 100svh
+
+}
+
+.grids_flip_wrap.u-flex-vertical-nowrap.u-gap-8.u-width-full {
+
+    border-bottom: 1px solid var(--swatch--gray);
+    border-top-style: none;
+    height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+
+}
+
+.grids_flip_wrap.u-flex-vertical-nowrap.u-width-full {
+
+    border-top: 1px solid var(--swatch--gray);
+    border-bottom: 1px solid var(--swatch--gray);
+    height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative
+
+}
+
+.grids_flip_wrap.u-flex-vertical-nowrap.u-width-full.u-gap-8 {
+
+    z-index: 1;
+    height: var(--max-width--full);
+    border-bottom-style: none
+
+}
+
+.grids_flip_top.u-width-full.u-flex-horizontal-nowrap.u-justify-content-end {
+
+    margin-top: var(--_spacing---section-space--main)
+
+}
+
+.grids_flip_controls {
+
+    width: var(--column-margin--6)
+
+}
+
+.grids_flip_controls.u-width-full {
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex
+
+}
+
+.grids_flip_top_contain {
+
+    width: var(--column-width--6)
+
+}
+
+.grids_flip_buttons {
+
+    grid-row-gap: var(--_spacing---space--3);
+    flex-flow: column;
+    display: flex;
+    position: absolute
+
+}
+
+.grids_flip_content.u-grid-custom {
+
+    padding: var(--site--margin)var(--column-margin--0);
+    border-top: 1px solid var(--swatch--gray);
+    border-bottom: 1px solid var(--swatch--gray);
+    --_column-count---value: 4;
+    grid-template-rows: auto auto auto auto;
+    height: 90vh;
+    position: relative;
+    overflow: hidden
+
+}
+
+.grids_flip_content.u-grid-custom.is-layout1 {
+
+    position: relative;
+    overflow: hidden
+
+}
+
+.grids_flip_content.u-grid-custom.is-layout2,
+.grids_flip_content.u-grid-custom.is-layout3 {
+
+    padding-right: var(--column-margin--0);
+    padding-left: var(--column-margin--0)
+
+}
+
+.grids_flip_h1 {
+
+    will-change: transform
+
+}
+
+.grids_flip_p {
+
+    will-change: transform
+
+}
+
+.grids_flip_p.u-text-style-h4 {
+
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h3);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    max-width: 28ch
+
+}
+
+.grids_end_p.u-width-full {
+
+    justify-content: center;
+    align-items: center;
+    height: 50svh;
+    display: flex
+
+}
+
+.grids_end_design {
+
+    height: 100svh
+
+}
+
+.grids_end_design.u-width-full {
+
+    border: 1px solid var(--swatch--gray);
+
+}
+
+.grids_intro_block {
+
+    width: var(--column-width--4);
+    aspect-ratio: 4/5.5;
+    border: 1px solid var(--swatch--gray);
+    justify-content: center;
+    align-items: center;
+    display: flex
+
+}
+
+.grids_flip_cover {
+
+    grid-row-gap: var(--_spacing---space--3);
+    flex-flow: column;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex
+
+}
+
+.grids_flip_text {
+
+    width: var(--column-width--4)
+
+}
+
+.grids_flip_text.u-text-style-large {
+
+    font-weight: var(--_typography---font--primary-medium);
+    width: auto
+
+}
+
+.grids_flip_text_wrap.u-flex-horizontal-nowrap {
+
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem
+
+}
+
+.grids_flip_text_wrap.u-flex-horizontal-nowrap.u-justify-content-between {
+
+    will-change: transform
+
+}
+
+.grids_flip_arrowbtn {
+
+    width: 2rem
+
+}
+
+.grids_guide_wrap.u-grid-custom {
+
+    position: absolute;
+    inset: 0%
+
+}
+
+.grids_guide_item {
+
+    width: var(--max-width--full);
+    height: var(--max-width--full);
+    background-color: #26262626;
+    display: block
+
+}
+
+.grids_contain {
+
+    width: 100%;
+    position: relative
+
+}
+
+.grids_flip_content_wrap {
+
+    position: relative
+
+}
+
+.grid_svg_wrap.u-width-full.u-height-full {
+
+    aspect-ratio: auto;
+    border: 1px solid var(--swatch--gray);
+    border-radius: var(--radius--small);
+    width: 100%;
+    position: relative;
+    overflow: hidden
+
+}
+
+.grids_flip_text_p.u-text-style-large {
+
+    font-weight: var(--_typography---font--primary-medium);
+
+}
+
+@media screen and (min-width:1440px) {
+.grids_wrap {
+
+        padding: var(--_spacing---section-space--main)var(--site--margin)
+    
+}
+
+.grids_wrap.u-flex-vertical-nowrap {
+
+        grid-column-gap: var(--_spacing---section-space--large);
+        grid-row-gap: var(--_spacing---section-space--large)
+    
+}
+
+.grids_intro_wrap.u-width-full.u-flex-horizontal-nowrap.u-justify-content-between {
+
+        grid-column-gap: var(--site--gutter);
+        grid-row-gap: var(--site--gutter)
+    
+}
+
+.grids_intro_chapter.u-width-full.u-height-full {
+
+        border: 1px solid var(--swatch--light-dim)
+    
+}
+
+.grids_intro_chapter.u-width-full.u-height-full.u-flex-vertical-nowrap.u-justify-content-between {
+
+        position: relative
+    
+}
+
+.grids_intro_head.u-text-style-display,
+    .grids_intro_p.u-text-style-h4 {
+
+        text-align: center
+    
+}
+
+.grids_chapter_top {
+
+        padding-top: var(--site--margin);
+        padding-left: var(--site--margin);
+    
+}
+
+.grids_chapter_top.u-width-full.u-flex-horizontal-nowrap.u-justify-content-between.u-align-items-start {
+
+        padding-top: 0;
+        padding-left: 0
+    
+}
+
+.grids_chapter_wrap {
+
+        padding-top: var(--site--margin);
+        padding-left: var(--site--margin)
+    
+}
+
+.grids_chapter_bottom_wrap {
+
+        height: 33svh;
+        position: relative
+    
+}
+
+.grids_chapter_bottom_wrap.u-width-full {
+
+        border-top: 1px solid var(--swatch--light-dim)
+    
+}
+
+.grids_chapter_bottom.u-flex-vertical-nowrap.u-justify-content-between.u-height-full {
+
+        padding: var(--site--margin)var(--site--margin)var(--_spacing---space--1);
+        position: relative
+    
+}
+
+.grids_bottom_heading.u-text-style-h4,
+    .grids_specs_wrap.u-width-full {
+
+        position: relative
+    
+}
+
+.grids_flip_wrap {
+
+        height: 100svh
+    
+}
+}
+
+@media screen and (max-width:991px) {
+.grids_intro_wrap.u-width-full.u-flex-horizontal-nowrap.u-justify-content-between {
+
+        flex-flow: column-reverse;
+        height: auto
+    
+}
+
+.grids_intro_about.u-width-full.u-height-full.u-flex-vertical-wrap.u-gap-8.u-align-items-center {
+
+        padding-top: var(--_spacing---section-space--main);
+        padding-bottom: var(--_spacing---section-space--main)
+    
+}
+
+.grids_flip_p.u-text-style-h4 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h4);
+        --_text-style---line-height: var(--_typography---line-height--1-1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--4);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    
+}
+}
+
+@media screen and (max-width:767px) {
+.grids_intro_wrap.u-width-full.u-flex-horizontal-nowrap.u-justify-content-between {
+
+        height: 150svh
+    
+}
+
+.grids_flip_top_contain.u-flex-vertical-nowrap.u-gap-8 {
+
+        width: var(--max-width--full)
+    
+}
+
+.grids_flip_p.u-text-style-h4 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h5);
+        --_text-style---line-height: var(--_typography---line-height--1-1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--4);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+}
+
+@media screen and (max-width:479px) {
+.grids_flip_p.u-text-style-h4 {
+
+        --_text-style---font-family: var(--_typography---font--primary-family);
+        --_text-style---font-size: var(--_typography---font-size--h5);
+        --_text-style---line-height: var(--_typography---line-height--1-1);
+        --_text-style---font-weight: var(--_typography---font--primary-medium);
+        --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+        --_text-style---text-wrap: balance;
+        --_text-style---margin-top: var(--_spacing---space--7);
+        --_text-style---margin-bottom: var(--_spacing---space--4);
+        --_text-style---text-transform: var(--_typography---text-transform--none);
+        --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+        --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom)
+    
+}
+}

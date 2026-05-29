@@ -1,0 +1,555 @@
+/* Theme variants, text style utilities, and rich text rules.
+   Split from 01-base-reset-utilities.css. */
+
+.u-theme-light {
+
+    background-color: var(--_theme---background);
+    color: var(--_theme---text);
+    --_theme---background: var(--swatch--white);
+    --_theme---text: var(--swatch--black);
+    --_theme---heading-accent: var(--swatch--brand-600);
+    --_theme---background-2: var(--swatch--light-dim);
+    --_theme---border: var(--swatch--dark-transparent);
+    --_theme---text-link--border: var(--_theme---border);
+    --_theme---text-link--text: var(--_theme---text);
+    --_theme---text-link--border-hover: var(--_theme---text);
+    --_theme---text-link--text-hover: var(--_theme---text-link--text);
+    --_theme---selection--background: var(--swatch--brand-300);
+    --_theme---selection--text: var(--swatch--brand-text);
+    --_theme---button-primary--background: var(--swatch--white);
+    --_theme---button-primary--border: var(--swatch--transparent);
+    --_theme---button-primary--text: var(--swatch--brand-text);
+    --_theme---button-primary--background-hover: var(--_theme---text);
+    --_theme---button-primary--border-hover: var(--_theme---button-primary--background-hover);
+    --_theme---button-primary--text-hover: var(--_theme---background);
+    --_theme---button-secondary--background: var(--swatch--transparent);
+    --_theme---button-secondary--border: var(--_theme---border);
+    --_theme---button-secondary--text: var(--_theme---text);
+    --_theme---button-secondary--background-hover: var(--_theme---text);
+    --_theme---button-secondary--border-hover: var(--_theme---button-secondary--background-hover);
+    --_theme---button-secondary--text-hover: var(--_theme---background)
+
+}
+
+.u-theme-dark {
+
+    background-color: var(--_theme---background);
+    color: var(--_theme---text);
+    --_theme---background: var(--swatch--black);
+    --_theme---text: var(--swatch--white);
+    --_theme---heading-accent: var(--swatch--brand-500);
+    --_theme---background-2: var(--swatch--dark);
+    --_theme---border: var(--swatch--light-dark);
+    --_theme---text-link--border: var(--_theme---border);
+    --_theme---text-link--text: var(--_theme---text);
+    --_theme---text-link--border-hover: var(--swatch--brand-500);
+    --_theme---text-link--text-hover: var(--_theme---text-link--text);
+    --_theme---selection--background: var(--swatch--brand-300);
+    --_theme---selection--text: var(--swatch--brand-text);
+    --_theme---button-primary--background: var(--swatch--white);
+    --_theme---button-primary--border: var(--swatch--transparent);
+    --_theme---button-primary--text: var(--swatch--brand-text);
+    --_theme---button-primary--background-hover: var(--_theme---text);
+    --_theme---button-primary--border-hover: var(--_theme---button-primary--background-hover);
+    --_theme---button-primary--text-hover: var(--_theme---background);
+    --_theme---button-secondary--background: var(--swatch--transparent);
+    --_theme---button-secondary--border: var(--_theme---border);
+    --_theme---button-secondary--text: var(--_theme---text);
+    --_theme---button-secondary--background-hover: var(--_theme---text);
+    --_theme---button-secondary--border-hover: var(--_theme---button-secondary--background-hover);
+    --_theme---button-secondary--text-hover: var(--_theme---background)
+
+}
+
+.u-theme-brand {
+
+    background-color: var(--_theme---background);
+    color: var(--_theme---text);
+    --_theme---background: var(--swatch--brand-500);
+    --_theme---text: var(--swatch--brand-text);
+    --_theme---heading-accent: color-mix(in srgb, var(--_theme---text), white 20%);
+    --_theme---background-2: var(--swatch--brand-600);
+    --_theme---border: var(--swatch--brand-text-o20);
+    --_theme---text-link--border: var(--_theme---border);
+    --_theme---text-link--text: var(--_theme---text);
+    --_theme---text-link--border-hover: var(--_theme---text);
+    --_theme---text-link--text-hover: var(--_theme---text-link--text);
+    --_theme---selection--background: var(--swatch--brand-300);
+    --_theme---selection--text: var(--swatch--brand-text);
+    --_theme---button-primary--background: var(--swatch--brand-text);
+    --_theme---button-primary--border: var(--swatch--transparent);
+    --_theme---button-primary--text: var(--swatch--brand-500);
+    --_theme---button-primary--background-hover: color-mix(in srgb, var(--_theme---button-primary--background), white 10%);
+    --_theme---button-primary--border-hover: var(--_theme---button-primary--background-hover);
+    --_theme---button-primary--text-hover: var(--_theme---button-primary--text);
+    --_theme---button-secondary--background: var(--swatch--transparent);
+    --_theme---button-secondary--border: var(--_theme---border);
+    --_theme---button-secondary--text: var(--_theme---text);
+    --_theme---button-secondary--background-hover: var(--_theme---text);
+    --_theme---button-secondary--border-hover: var(--_theme---button-secondary--background-hover);
+    --_theme---button-secondary--text-hover: var(--_theme---background)
+
+}
+
+.u-text-style-display {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_typography---font--primary-regular);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--display);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--6);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: wrap;
+    display: flow-root
+
+}
+
+.u-text-style-h1 {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h1);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: wrap;
+    display: flow-root
+
+}
+
+.u-text-style-h2 {
+
+    font-size: var(--_typography---font-size--h2);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h3);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: wrap;
+    font-family: var(--_text-style---font-family);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    text-align: var(--_alignment---direction, start);
+    display: flow-root
+
+}
+
+.u-text-style-h2.u-alignment-center {
+
+    max-width: 23ch
+
+}
+
+.u-text-style-h4 {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h4);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    display: flow-root
+
+}
+
+.u-text-style-h5 {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h5);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    display: flow-root
+
+}
+
+.u-text-style-h6 {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h6);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    display: flow-root
+
+}
+
+.u-text-style-large {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--text-large);
+    --_text-style---line-height: var(--_typography---line-height--1-5);
+    --_text-style---font-weight: var(--_typography---font--primary-regular);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0em);
+    --_text-style---text-wrap: pretty;
+    --_text-style---margin-top: var(--_spacing---space--4);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    display: flow-root
+
+}
+
+.u-text-style-main {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--text-main);
+    --_text-style---line-height: var(--_typography---line-height--1-5);
+    --_text-style---font-weight: var(--_typography---font--primary-regular);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: pretty;
+    --_text-style---margin-top: var(--_spacing---space--4);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    display: flow-root
+
+}
+
+.u-text-style-small {
+
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--text-small);
+    --_text-style---line-height: var(--_typography---line-height--1-5);
+    --_text-style---font-weight: var(--_typography---font--primary-regular);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0em);
+    --_text-style---text-wrap: pretty;
+    --_text-style---margin-top: var(--_spacing---space--4);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap);
+    display: flow-root
+
+}
+
+.u-rich-text {
+
+    text-wrap: var(--_text-style---text-wrap)
+
+}
+
+.u-rich-text h1 {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h1);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap)
+
+}
+
+.u-rich-text h2 {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h2);
+    --_text-style---line-height: var(--_typography---line-height--1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap)
+
+}
+
+.u-rich-text h3 {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h3);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--5);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap)
+
+}
+
+.u-rich-text h4 {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h4);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    text-wrap: var(--_text-style---text-wrap)
+
+}
+
+.u-rich-text h5 {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h5);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-wrap: var(--_text-style---text-wrap);
+    text-transform: var(--_text-style---text-transform, none)
+
+}
+
+.u-rich-text h6 {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--h6);
+    --_text-style---line-height: var(--_typography---line-height--1-1);
+    --_text-style---font-weight: var(--_typography---font--primary-medium);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0-02em);
+    --_text-style---text-wrap: balance;
+    --_text-style---margin-top: var(--_spacing---space--7);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-wrap: var(--_text-style---text-wrap);
+    text-transform: var(--_text-style---text-transform, none)
+
+}
+
+.u-rich-text p {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom)
+
+}
+
+.u-rich-text blockquote {
+
+    margin-top: var(--_spacing---space--6);
+    margin-bottom: var(--_spacing---space--6);
+    font-family: var(--_text-style---font-family);
+    font-size: var(--_text-style---font-size);
+    line-height: var(--_text-style---line-height);
+    font-weight: var(--_text-style---font-weight);
+    letter-spacing: var(--_text-style---letter-spacing);
+    --_text-style---font-family: var(--_typography---font--primary-family);
+    --_text-style---font-size: var(--_typography---font-size--text-large);
+    --_text-style---line-height: var(--_typography---line-height--1-5);
+    --_text-style---font-weight: var(--_typography---font--primary-regular);
+    --_text-style---letter-spacing: var(--_typography---letter-spacing--0em);
+    --_text-style---text-wrap: pretty;
+    --_text-style---margin-top: var(--_spacing---space--4);
+    --_text-style---margin-bottom: var(--_spacing---space--4);
+    --_text-style---text-transform: var(--_typography---text-transform--none);
+    --_text-style---trim-top: var(--_typography---font--primary-trim-top);
+    --_text-style---trim-bottom: var(--_typography---font--primary-trim-bottom);
+    text-transform: var(--_text-style---text-transform, none);
+    border-left-style: solid;
+    border-left-width: .2rem;
+    padding: .5rem 1rem
+
+}
+
+.u-rich-text ol {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    grid-column-gap: .9em;
+    grid-row-gap: .9em;
+    align-items: var(--_alignment---direction, start);
+    flex-flow: column;
+    padding-left: 1.2em;
+    list-style-type: decimal;
+    display: flex;
+    overflow: visible
+
+}
+
+.u-rich-text li {
+
+    margin-top: calc(var(--_text-style---trim-top)*-1);
+    margin-bottom: calc(var(--_text-style---trim-bottom)*-1);
+    display: list-item
+
+}
+
+.u-rich-text ul {
+
+    margin-top: var(--_text-style---margin-top);
+    margin-bottom: var(--_text-style---margin-bottom);
+    grid-column-gap: .9em;
+    grid-row-gap: .9em;
+    align-items: var(--_alignment---direction, start);
+    flex-flow: column;
+    padding-left: 1.2em;
+    list-style-type: disc;
+    display: flex;
+    overflow: visible
+
+}
+
+.u-rich-text figure {
+
+    margin-top: var(--_spacing---space--7);
+    margin-bottom: var(--_spacing---space--7)
+
+}

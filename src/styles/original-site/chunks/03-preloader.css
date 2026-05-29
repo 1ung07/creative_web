@@ -1,0 +1,43 @@
+/* Preloader interface rules.
+   Generated from 01-webflow-utilities.css by scripts/split-webflow-css.cjs. */
+
+.loader_wrap.u-width-full {
+
+    z-index: 1000;
+    padding: var(--site--margin);
+    background-color: var(--swatch--black);
+    height: 100svh;
+    display: none;
+    position: fixed
+
+}
+
+.loader_text {
+
+    font-family: Rand Mono, Arial, sans-serif;
+    font-size: var(--_typography---font-size--text-small);
+    text-transform: uppercase;
+    transform: rotate(0)
+
+}
+
+@media screen and (min-width:1280px) {
+.loader_percentt {
+
+        height: var(--max-width--full);
+        justify-content: space-between;
+        align-items: flex-end;
+        display: flex;
+        position: absolute;
+        inset: 0%
+    
+}
+}
+
+@media screen and (min-width:1440px) {
+.loader_text {
+
+        font-size: var(--_typography---font-size--text-small)
+    
+}
+}

@@ -1,0 +1,325 @@
+/* About section rules.
+   Generated from 01-webflow-utilities.css by scripts/split-webflow-css.cjs. */
+
+.about_wrap {
+
+    padding: var(--site--margin);
+    background-color: var(--swatch--black);
+    position: relative;
+    top: auto;
+    bottom: auto
+
+}
+
+.about_p1_contain {
+
+    background-color: var(--swatch--white);
+    border-radius: 0;
+    height: 100svh
+
+}
+
+.about_p1_contain.u-flex-vertical-nowrap {
+
+    padding: var(--site--margin);
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 50%;
+    height: 500px;
+    position: relative
+
+}
+
+.about_p2_contain {
+
+    height: 100svh
+
+}
+
+.about_p2_contain.u-flex-vertical-nowrap.u-align-items-center {
+
+    background-color: var(--swatch--black);
+    justify-content: center;
+    align-items: center;
+    position: relative
+
+}
+
+.about_eyebrow {
+
+    color: var(--_theme---background)
+
+}
+
+.about_eyebrow.u-mono {
+
+    font-size: var(--_typography---font-size--text-small)
+
+}
+
+.about_p1_content.u-width-full.u-position-absolute {
+
+    inset: 0%
+
+}
+
+.about_p1_content.u-width-full.u-position-absolute.u-height-full {
+
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute
+
+}
+
+.about_p1_content.u-width-full.u-position-absolute.u-height-full.u-gap-8 {
+
+    padding-right: var(--site--margin);
+    padding-left: var(--site--margin)
+
+}
+
+.about_p_creativity.u-text-style-display {
+
+    color: var(--_theme---background)
+
+}
+
+.about_p_creativity.u-text-style-display.u-text-trim-off.is-technicality {
+
+    margin-top: var(--_spacing---space--3);
+    font-family: var(--_typography---font--tertiary-family);
+    letter-spacing: -.04em
+
+}
+
+.about_h1_c.u-width-full.u-flex-horizontal-nowrap {
+
+    overflow: hidden
+
+}
+
+.about_h1_t.u-width-full.u-flex-horizontal-nowrap.u-align-items-end {
+
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden
+
+}
+
+.about_p2_text.u-text-style-h2 {
+
+    font-size: var(--_typography---font-size--h2);
+    line-height: var(--_typography---line-height--1);
+    text-align: center;
+    text-transform: none;
+    text-wrap: wrap;
+    display: inline
+
+}
+
+.about_p3_contain {
+
+    padding-top: var(--_spacing---section-space--main);
+    padding-bottom: var(--_spacing---section-space--main);
+    background-color: var(--swatch--black);
+    height: 100svh
+
+}
+
+.about_p3_contain.u-flex-vertical-nowrap {
+
+    height: 60svh
+
+}
+
+.about_p1_wrap.u-width-full.u-flex-horizontal-nowrap.u-justify-content-center.u-height-full {
+
+    height: 100svh
+
+}
+
+.about_card_sticky {
+
+    height: 250vh;
+    position: sticky;
+    top: 0
+
+}
+
+.about_eyebrows.u-flex-vertical-nowrap.u-justify-content-between {
+
+    height: var(--max-width--full)
+
+}
+
+.about_h2 {
+
+    text-wrap: wrap;
+    font-size: clamp(2rem, 4vw, 5rem)
+
+}
+
+.about_p3_wrap.u-flex-vertical-nowrap.u-gap-8.u-width-full {
+
+    grid-column-gap: var(--_spacing---space--5);
+    grid-row-gap: var(--_spacing---space--5)
+
+}
+
+.about_p2_sticky {
+
+    height: 250svh;
+    position: sticky;
+    top: 0
+
+}
+
+.about_p2_text_wrap {
+
+    z-index: 1;
+    grid-column-gap: var(--site--margin);
+    grid-row-gap: var(--site--margin);
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    display: flex;
+    position: relative
+
+}
+
+.about_line_wrap {
+
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    flex-flow: wrap;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    display: inline-flex
+
+}
+
+.about_line_span {
+
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    width: auto;
+    display: flex;
+    position: relative
+
+}
+
+@media screen and (min-width:1280px) {
+.about_p1_contain.u-flex-vertical-nowrap {
+
+        width: 30%;
+        height: 50%;
+        position: relative
+    
+}
+
+.about_p1_content.u-width-full.u-position-absolute.u-height-full.u-gap-8 {
+
+        position: absolute
+    
+}
+
+.about_p_creativity.u-text-style-display.u-text-trim-off {
+
+        font-weight: var(--_typography---font--primary-medium);
+        text-wrap: nowrap
+    
+}
+
+.about_card_sticky {
+
+        position: relative;
+        top: auto
+    
+}
+
+.about_eyebrows {
+
+        height: var(--max-width--full)
+    
+}
+}
+
+@media screen and (min-width:1440px) {
+.about_p1_content.u-width-full.u-position-absolute.u-height-full.u-gap-8 {
+
+        padding-right: var(--site--margin);
+        padding-left: var(--site--margin)
+    
+}
+
+.about_h1_t.u-width-full.u-flex-horizontal-nowrap {
+
+        justify-content: flex-end;
+        align-items: center;
+        position: relative
+    
+}
+}
+
+@media screen and (max-width:991px) {
+.about_p_creativity.u-text-style-display.u-text-trim-off {
+
+        text-wrap: nowrap;
+        font-size: 4rem
+    
+}
+}
+
+@media screen and (max-width:767px) {
+.about_p_creativity.u-text-style-display.u-text-trim-off {
+
+        font-size: 3rem
+    
+}
+
+.about_p3_contain.u-flex-vertical-nowrap {
+
+        height: 75svh
+    
+}
+
+.about_p1_wrap.u-width-full.u-flex-horizontal-nowrap.u-justify-content-center.u-height-full {
+
+        height: 100dvh
+    
+}
+
+.about_p2_text_wrap {
+
+        grid-column-gap: .75em;
+        grid-row-gap: .75em
+    
+}
+
+.about_line_wrap {
+
+        padding-top: .4rem;
+        padding-bottom: .4rem
+    
+}
+}
+
+@media screen and (max-width:479px) {
+.about_p2_text.u-text-style-h2 {
+
+        text-align: center
+    
+}
+
+.about_p2_text_wrap {
+
+        grid-column-gap: .6em;
+        grid-row-gap: .6em
+    
+}
+}

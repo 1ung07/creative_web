@@ -1,0 +1,92 @@
+/* Project font-face declarations.
+   Split from 01-base-reset-utilities.css. */
+
+@font-face {
+
+    font-family: Ppneuemontreal;
+    src: url(../../../assets/fonts/6904bd15f690217a6f9247f8_PPNeueMontreal-Bold.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Ppneuemontreal Book;
+    src: url(../../../assets/fonts/6904bd15c0a25fedbca909f7_PPNeueMontreal-Book.woff2)format("woff2");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Ppneuemontreal;
+    src: url(../../../assets/fonts/6904bd16ff2aa8bc1153037e_PPNeueMontreal-Medium.woff2)format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Ppneuemontreal;
+    src: url(../../../assets/fonts/6904bd172f941ad406d767f0_PPNeueMontreal-Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Ppneuemontreal;
+    src: url(../../../assets/fonts/6904bd16d5b20704e32c3f37_PPNeueMontreal-Light.woff2)format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Ppneuemontreal Variable;
+    src: url(../../../assets/fonts/6907f86744f231d45f187503_PPNeueMontreal-Variable.woff2)format("woff2");
+    font-weight: 200 800;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Rand Mono;
+    src: url(../../../assets/fonts/68f957f26bfa4d1bf62c4894_Rand-Mono-Thin.woff)format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Rand Mono;
+    src: url(../../../assets/fonts/68f957fbecbf217a930756cc_Rand-Mono-Regular.woff)format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+
+}
+
+@font-face {
+
+    font-family: Ppmondwest;
+    src: url(../../../assets/fonts/6904bdedfcd00c4683d0fb5d_PPMondwest-Regular.otf)format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+
+}
