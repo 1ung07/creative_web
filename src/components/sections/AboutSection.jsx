@@ -1,4 +1,5 @@
 import React from "react";
+import { AboutPlusSvg } from "../../utils";
 
 const AboutSection = () => {
   return (
@@ -36,26 +37,7 @@ const AboutSection = () => {
                   CREATIVITY
                 </h2>
               </div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="100%"
-                viewBox="0 0 95 95"
-                fill="none"
-                className="svg"
-              >
-                <rect
-                  width="94.7523"
-                  height="94.7523"
-                  rx="47.3762"
-                  fill="currentColor"
-                  className="rect"
-                ></rect>
-                <path
-                  d="M45.6076 48.9678H22.8529V45.6666H45.6076L45.4897 21.8508H49.2625L49.1446 45.6666H71.8993V48.9678H49.1446L49.2625 72.9015H45.4897L45.6076 48.9678Z"
-                  fill="currentColor"
-                  className="card-plus"
-                ></path>
-              </svg>
+              <AboutPlusSvg />
               <div className="about_h1_t u-width-full u-flex-horizontal-nowrap u-align-items-end">
                 <h2
                   data-about-tech=""

@@ -1,4 +1,5 @@
 import React from 'react'
+import { PracticeWordSvg } from '../../utils'
 
 const practiceLayers = [
   { className: '' },
@@ -10,26 +11,10 @@ const practiceLayers = [
   { className: 'u-position-absolute is-4' },
 ]
 
-const PracticeWord = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1387 236" fill="none" className="practice_word_svg">
-    <text
-      x="0"
-      y="218"
-      fill="currentColor"
-      fontFamily="PP Neue Montreal, Arial, sans-serif"
-      fontSize="296"
-      fontWeight="400"
-      letterSpacing="-12"
-    >
-      PRACTICE
-    </text>
-  </svg>
-)
-
 const PracticeLayer = ({ className = '' }) => (
   <div className={`practice_contain_inner ${className}`.trim()}>
-    <PracticeWord />
-    <PracticeWord />
+    <PracticeWordSvg />
+    <PracticeWordSvg />
   </div>
 )
 

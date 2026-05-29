@@ -4,6 +4,12 @@ import gridImage800 from '../../assets/images/6906026d50614ec019a50d84_13 1-p-80
 import gridImage1080 from '../../assets/images/6906026d50614ec019a50d84_13 1-p-1080.avif'
 import gridImage1600 from '../../assets/images/6906026d50614ec019a50d84_13 1-p-1600.avif'
 import gridImageFull from '../../assets/images/6906026d50614ec019a50d84_13 1.avif'
+import {
+  BracketSvg,
+  GridDownArrowSvg,
+  GridFlipArrowSvg,
+  GridPlusSvg,
+} from '../../utils'
 
 const GridsLayoutsSection = () => {
   return (
@@ -14,7 +20,7 @@ const GridsLayoutsSection = () => {
                         <div className="grids_chapter_top u-width-full u-flex-horizontal-nowrap u-justify-content-between u-align-items-start">
                             <div className="grids_chapter_wrap">
                                 <p className="grids_chapter u-mono">chapter 2.1: grids &amp; layouts</p>
-                            </div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 217 214" fill="none" className="svg-2"><path d="M74 119.224L76.688 116.536L106.512 143.928V62.7759H110.608V143.928L140.432 116.536L143.12 119.224L108.56 151.224L74 119.224Z" fill="currentColor"></path></svg></div>
+                            </div><GridDownArrowSvg /></div>
                         <div
                             className="grids_chapter_bottom_wrap u-width-full">
                             <div className="grids_chapter_bottom u-flex-vertical-nowrap u-justify-content-between u-height-full u-width-full">
@@ -38,19 +44,11 @@ const GridsLayoutsSection = () => {
                 </div>
                 <div className="grids_intro_about u-width-full u-height-full u-flex-vertical-wrap u-gap-8 u-align-items-center">
                     <h2 className="grids_intro_head u-text-style-display">Grids &amp; Layouts</h2>
-                    <div className="grids_intro_block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 54 56" fill="none" className="svg-8"><path d="M24.704 29.44H0V25.856H24.704L24.576 0H28.672L28.544 25.856H53.248V29.44H28.544L28.672 55.424H24.576L24.704 29.44Z" fill="currentColor"></path></svg>
+                    <div className="grids_intro_block"><GridPlusSvg />
                         <div
-                            className="bracket-accents"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 14 14" fill="none" bracket="" className="bracket-br"><rect width="14" height="1" transform="matrix(0 -1 -1 0 14 14)" fill="currentColor"></rect><rect width="14" height="1" transform="matrix(1 0 0 -1 0 14)" fill="currentColor"></rect></svg>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 14 14" fill="none" bracket="" className="bracket_-bl">
-                                <rect width="14" height="1" transform="matrix(1 0 0 -1 0 14)" fill="currentColor"></rect>
-                                <rect width="14" height="1" transform="matrix(0 1 1 0 0 0)" fill="currentColor"></rect>
-                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 14 14" fill="none" bracket="" className="bracket-tr"><rect width="14" height="1" transform="matrix(0 1 -1 0 14 0)" fill="currentColor"></rect><rect width="14" height="1" fill="currentColor"></rect></svg>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 14 14" fill="none" bracket="" className="bracket-tl">
-                                    <rect width="14" height="1" fill="currentColor"></rect>
-                                    <rect width="14" height="1" transform="matrix(0 -1 1 0 0 14)" fill="currentColor"></rect>
-                                    </svg>
+                            className="bracket-accents"><BracketSvg className="bracket-br" />
+                            <BracketSvg className="bracket_-bl" /><BracketSvg className="bracket-tr" />
+                                <BracketSvg className="bracket-tl" />
                     </div>
                 </div>
                 <p className="grids_intro_p u-text-style-h4">Using a grid can assist in creative cohesive, <br/>precise and satisfying layouts by aligning <br/>and grouping elements within the grid.</p>
@@ -102,7 +100,7 @@ const GridsLayoutsSection = () => {
                 </div>
                 <div className="grids_flip_cover">
                     <div className="grids_flip_text_wrap u-flex-horizontal-nowrap u-justify-content-between">
-                        <div className="grids_flip_text u-text-style-large">See projects </div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 26 26" fill="none" className="grids_flip_arrowbtn"><rect width="26" height="26" fill="currentColor"></rect><path d="M13.4 18.08L16.84 14.42H5.94V12.8H16.84L13.4 9.14L14.58 8.04L19.76 13.62L14.58 19.2L13.4 18.08Z" fill="currentColor" className="path-5"></path></svg></div><img
+                        <div className="grids_flip_text u-text-style-large">See projects </div><GridFlipArrowSvg /></div><img
                         src={gridImageFull} loading="lazy" alt="" sizes="(max-width: 1919px) 100vw, 1811px" srcSet={`${gridImage500} 500w, ${gridImage800} 800w, ${gridImage1080} 1080w, ${gridImage1600} 1600w, ${gridImageFull} 1811w`}
                         className="u-ratio-3-2 u-background-skeleton" /></div>
                 <p className="grids_flip_p u-text-style-h4">We are a multidisciplinary design studio specializing in bespoke residential projects.</p>
